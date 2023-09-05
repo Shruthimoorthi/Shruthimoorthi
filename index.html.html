@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <style>
+        body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:pink;
+    color: #333;
+}
+
+/* Style the header/navigation */
+header {
+    background-color:pink;
+    color: #28d1e7;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero img {
+    max-width: 100%; 
+    height: auto;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:aqua;
+    color:black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the "About Us" section */
+#about {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+/* Style the "Key Features" section */
+#features {
+    background-color:pink;
+    padding: 40px;
+}
+
+.feature {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.feature img {
+   width:700px;
+    height:500px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Style the "Contact Us" section */
+#contact {
+    background-color:pink;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid violet;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(28, 219, 203);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+    </style>
+</head>
+<body>
+ <section id="hero">
+        <img src="shruthi.jpg" alt="Image">
+        <h1>DESERTS</h1>
+        <p>Welcoming all to the flavoured dessert world</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+    </p>We have more than 200 branches all over the state which provides all the types of cake with a good service and in the ost hygenic way</p>
+    </section>
+
+    <section id="features">
+        <h2>Top most loved</h2>
+        <div class="feature">
+            <img src="shruthi1.jpg" alt="Cake 1 Image">
+            <h3>Flavour 1</h3>
+            <p> "Taking sweet moments to another level."</p>
+        </div>
+        <div class="feature">
+            <img src="shruthi2.jpg" alt="Cake 2 Image">
+            <h3>Flavour 2</h3>
+            <p>"Dessert: the sweetest form of self-love."</p>
+        </div>
+        <div class="feature">
+            <img src="shruthi3.jpg" alt="Cake 3 Image">
+            <h3>Favour 3</h3>
+            <p>"Serving up some sweet happiness."</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to interact with us</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="Order number" required>
+            <textarea placeholder="Your Review" rows="4" required></textarea>
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lovindesserts</p>
+    </footer>
+</body>
+</html>
